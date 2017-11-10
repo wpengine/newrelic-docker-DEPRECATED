@@ -15,5 +15,5 @@ docker run -d -e NR_PORT=8004 -p 8004:8004 wpengine/newrelic-php-daemon:7.6.0.20
 
 ## Building
 ```
-docker build -t wpengine/newrelic-php-daemon:$VERSION .
+docker build -t wpengine/newrelic-php-daemon:$VERSION 7.6.0.201
 ```
