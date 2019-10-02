@@ -10,10 +10,10 @@ These images are tied to specific [New Relic daemon releases](https://download.n
 ## Running
 The following command runs the New Relic daemon and exposes the service on port 8004. `NR_PORT` can also contain a socket name that could be shared between containers.
 ```
-docker run -d -e NR_PORT=8004 -p 8004:8004 wpengine/newrelic-php-daemon:8.1.0.209
+docker run -d -e NR_PORT=8004 -p 8004:8004 wpengine/newrelic-php-daemon:9.1.0.246
 ```
 
 ## Building
 ```
-docker build -t wpengine/newrelic-php-daemon:$VERSION 8.1.0.209
+docker build -t wpengine/newrelic-php-daemon:$VERSION 9.1.0.346
 ```
