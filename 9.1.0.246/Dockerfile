@@ -1,4 +1,4 @@
-FROM alpine:3.10.2
+FROM alpine:3.10
 
 ENV NR_PORT /tmp/.newrelic.sock
 
